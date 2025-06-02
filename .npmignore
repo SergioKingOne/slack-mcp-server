@@ -1,0 +1,41 @@
+# Source files
+src/
+*.ts
+!*.d.ts
+
+# Configuration files
+tsconfig.json
+.gitignore
+.eslintrc*
+.prettierrc*
+
+# Development files
+.env
+.env.*
+
+# Testing
+test/
+tests/
+*.test.*
+*.spec.*
+coverage/
+.nyc_output/
+
+# Documentation source
+docs/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.github/
+
+# Other
+tmp/
+temp/
+examples/
+*.log
