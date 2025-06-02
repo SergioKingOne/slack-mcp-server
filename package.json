@@ -1,6 +1,6 @@
 {
     "name": "@sergdev1/slack-mcp-server",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "MCP server for Slack integration - list channels, threads, and read messages",
     "main": "./dist/index.js",
     "type": "module",
