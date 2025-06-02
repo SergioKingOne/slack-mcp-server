@@ -1,5 +1,5 @@
 {
-    "name": "@yourusername/slack-mcp-server",
+    "name": "@sergdev1/slack-mcp-server",
     "version": "1.0.1",
     "description": "MCP server for Slack integration - list channels, threads, and read messages",
     "main": "./dist/index.js",
@@ -20,7 +20,7 @@
         "ai",
         "llm"
     ],
-    "author": "Your Name",
+    "author": "Sergio Robayo",
     "license": "MIT",
     "dependencies": {
         "@modelcontextprotocol/sdk": "^1.0.4",

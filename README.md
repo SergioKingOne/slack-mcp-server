@@ -51,7 +51,7 @@ Add to your Claude Desktop config file:
   "mcpServers": {
     "slack": {
       "command": "npx",
-      "args": ["-y", "@yourusername/slack-mcp-server"],
+      "args": ["-y", "@sergdev1/slack-mcp-server"],
       "env": {
         "SLACK_BOT_TOKEN": "xoxb-your-bot-token"
       }
