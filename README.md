@@ -178,7 +178,7 @@ Lists threads in a channel.
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/slack-mcp-server.git
+git clone https://github.com/SergioKingOne/slack-mcp-server.git
 cd slack-mcp-server
 
 # Install dependencies
@@ -196,17 +196,6 @@ export SLACK_BOT_TOKEN="xoxb-your-bot-token"
 
 # Run the server
 npm test
-```
-
-### Publishing
-
-```bash
-# Update version in package.json
-npm version patch
-
-# Build and publish
-npm run build
-npm publish
 ```
 
 ## Environment Variables
@@ -256,7 +245,7 @@ Contributions are welcome! Please:
 
 ## License
 
-MIT License - see LICENSE file for details
+MIT License
 
 ## Related Projects
 
