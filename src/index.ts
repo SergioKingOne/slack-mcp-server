@@ -52,10 +52,10 @@ async function main() {
         "MCP server for Slack integration with tools, resources, and prompts",
     });
 
-    // Register all components
+    // Register all components - changed order to register resources last
     registerTools(server, slackClient);
-    registerResources(server, slackClient);
     registerPrompts(server);
+    registerResources(server, slackClient);
 
     // Create and connect transport
     const transport = new StdioServerTransport();
